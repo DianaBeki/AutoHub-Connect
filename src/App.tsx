@@ -7,6 +7,8 @@ import Cars from "./components/Cars";
 import About from "./components/About";
 import Booking from "./components/Booking";
 import Footer from './components/Footer';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const App = () => {
 
@@ -27,6 +29,16 @@ const App = () => {
   }
   }, [theme]);
 
+ // AOS Initialization
+React.useEffect(() => {
+  AOS.init({
+    offset: 100,
+    duration: 800,
+    easing: 'ease-in-sine',
+    delay: 100,
+  });
+  AOS.refresh();
+}, []);
   return (
     <main> 
       <Navbar theme={theme} setTheme={setTheme} />
