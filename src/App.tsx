@@ -39,6 +39,7 @@ React.useEffect(() => {
   });
   AOS.refresh();
 }, []);
+
   return (
     <main> 
       <Navbar theme={theme} setTheme={setTheme} />
