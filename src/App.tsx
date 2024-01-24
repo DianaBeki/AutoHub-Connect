@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from '../src/components/Navbar';
-import Home from "./components/Home/Home";
+import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Cars from "./components/pages/Cars";
 import About from "./components/pages/About";

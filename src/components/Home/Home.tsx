@@ -1,7 +1,7 @@
 import React from 'react';
 import { GiAutoRepair } from "react-icons/gi";
 
-const Home = () => {
+const HomeImg = () => {
   return (
     <div className="bg-home dark:bg-dark dark:text-secondary duration-300">
       <div className="container pt-[8rem] lg:pt-[2rem] flex flex-col justify-center items-center md:gap-2 lg:translate-y-[10rem] cursor-pointer">
@@ -27,4 +27,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomeImg
