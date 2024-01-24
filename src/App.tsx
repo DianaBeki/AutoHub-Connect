@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from '../src/components/Navbar';
-import Home from "./components/Home";
-import Services from "./components/Services";
-import Cars from "./components/Cars";
-import About from "./components/About";
-import Booking from "./components/Booking";
+import Home from "./components/Home/Home";
+import Services from "./components/pages/Services";
+import Cars from "./components/pages/Cars";
+import About from "./components/pages/About";
+import Booking from "./components/pages/Booking";
 import Footer from './components/Footer';
 import AOS from 'aos';
 import "aos/dist/aos.css";
