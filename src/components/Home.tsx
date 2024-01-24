@@ -20,7 +20,7 @@ const Home = () => {
          data-aos="fade-up"
          data-aos-delay="1000"
         className="bg-primary inline p-1">
-          <h3 className="text-1xl font-bold">Retro Auto Specialist</h3>
+          <h3 className="text-2xl font-bold">Retro Car Specialist</h3>
         </div>
       </div>
     </div>
