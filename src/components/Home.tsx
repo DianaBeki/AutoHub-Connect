@@ -13,14 +13,14 @@ const Home = () => {
         data-aos="fade-up"
         data-aos-delay="600"
         className="md:font-bold font-signature text-[2.2rem] text-secondary">
-            CAR & HUB
+            AUTO & HUB
           </h1>
         </div>
         <div 
          data-aos="fade-up"
          data-aos-delay="1000"
         className="bg-primary inline p-1">
-          <h3 className="text-2xl font-bold">Retro Car Specialist</h3>
+          <h3 className="text-2xl font-bold">ProDrive Hub&Rentals</h3>
         </div>
       </div>
     </div>
