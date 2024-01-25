@@ -24,7 +24,7 @@ const ChooseUs = () => {
   ];
 
   return (
-    <div className="bg-[#e5e5e5] text cursor-pointer w-full dark:bg-dark pb-10">
+    <div className="bg-[#e5e5e5] cursor-pointer w-full dark:bg-dark pb-10">
       <div className="container pt-[2rem] md:pt-[4rem]">
         <div className="font-medium pb-10 text-center">
           <h1 className="text-[20px] md:text-[29px] dark:text-secondary">Why Choose Us</h1>
