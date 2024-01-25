@@ -35,7 +35,7 @@ const ChooseUs = () => {
               <div className="mt-4">{service.icon}</div>
               <div className="">
                 <h1 className="text-center mt-4 mb-[15px] font-medium">{service.title}</h1>
-                <p className="text-1xl">
+                <p className="text-center text-1xl">
                   {showMoreInfo[index] ? service.description : `${service.description.slice(0, 250)}...`}
                   <br />
                   <span

@@ -18,21 +18,21 @@ const OurServices = () => {
     <GiMechanicGarage size={100} className="mx-auto p-4 rounded-full  border-4 border-dark dark:border-primary" />
    </div>
    <h1 className="text-center mt-4 mb-[15px] font-medium md:font-bold">MAINTENANCE</h1>
-   <p className="text-1xl text-[#111111] dark:text-primary">Our skilled team offers a range of services, from routine inspections to efficient repairs, ensuring your vehicle stays in top condition. Experience transparent and reliable automotive care with us, providing you with confidence on the road</p>
+   <p className="text-center text-1xl text-[#111111] dark:text-primary">Our skilled team offers a range of services, from routine inspections to efficient repairs, ensuring your vehicle stays in top condition. Experience transparent and reliable automotive care with us, providing you with confidence on the road</p>
         </div>
         <div className="">
           <div className="">
           <FaGear size={100} className="mx-auto p-4 rounded-full  border-4 border-dark dark:border-primary" />
           </div>
           <h1 className="text-center mt-4 mb-[15px] font-medium md:font-bold">DRIVEHUB</h1>
-          <p className="text-1xl text-[#111111] dark:text-primary">Our adept team caters to an array of services, from routine inspections to swift repairs, assuring your vehicle remains in peak condition. Encounter transparent and dependable automotive care with us, instilling confidence as you navigate the roads ahead</p>
+          <p className="text-center text-1xl text-[#111111] dark:text-primary">Our adept team caters to an array of services, from routine inspections to swift repairs, assuring your vehicle remains in peak condition. Encounter transparent and dependable automotive care with us, instilling confidence as you navigate the roads ahead</p>
         </div>
         <div className="">
 <div className="">
 <GiEmptyMetalBucketHandle size={100} className="mx-auto p-4 rounded-full  border-4 border-dark dark:border-primary"/>
 </div>
 <h1 className="text-center mt-4 mb-[15px] font-medium md:font-bold">PAINTWORK</h1>
-<p className="text-1xl text-[#111111] dark:text-primary">Whether you're looking to refresh your vehicle's appearance or add a personalized touch, our paintwork services bring creativity to every curve. Elevate your ride with a spectrum of colors and designs, turning your vehicle into a canvas of individuality
+<p className="text-center text-1xl text-[#111111] dark:text-primary">Whether you're looking to refresh your vehicle's appearance or add a personalized touch, our paintwork services bring creativity to every curve. Elevate your ride with a spectrum of colors and designs, turning your vehicle into a canvas of individuality
 </p>
         </div>
       </div>
