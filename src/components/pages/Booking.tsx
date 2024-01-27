@@ -1,10 +1,12 @@
 import React from 'react'
-import BookingForm from '../Booking/BookingImage'
+import BookingImage from '../Booking/BookingImage'
+import BookingForm from '../Booking/BookingForm'
 
 const Booking = () => {
   return (
     <div>
-      <BookingForm  />
+      <BookingImage  />
+      <BookingForm />
     </div>
   )
 }
