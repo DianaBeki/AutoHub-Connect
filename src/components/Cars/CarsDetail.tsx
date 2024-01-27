@@ -48,7 +48,7 @@ const CarsDetail = () => {
   <h4 className="ml-2 mb-7 text-primary font-bold">TESLA UX</h4>
   <div className="dark:text-secondary flex justify-between mx-2 font-bold">
   <span>$200/Day</span>
-  <Link to="booking" className='underline'>Book Now</Link>
+  <Link to="/booking" className='underline'>Book Now</Link>
   </div>
   <span></span>
   </div>
