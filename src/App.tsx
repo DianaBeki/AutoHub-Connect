@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import {  Routes, Route } from "react-router-dom";
 import Navbar from '../src/components/Navbar';
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
@@ -7,8 +8,10 @@ import Cars from "./components/pages/Cars";
 import About from "./components/pages/About";
 import Booking from "./components/pages/Booking";
 import Footer from './components/Footer';
+import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+
 
 const App = () => {
 
@@ -50,6 +53,7 @@ React.useEffect(() => {
   <Route path="/about" element={<About />} />
   <Route path="/booking" element={<Booking />} />
   </Routes>
+  <ToastContainer />
   <Footer />
     </main>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import bugatti from '../../assets/cars/bugatti.png';
 import jeep from '../../assets/cars/jeep.png';
 import tesla from '../../assets/cars/tesla.png';
+import { Link } from 'react-router-dom';
 
 const CarsDetail = () => {
   return (
@@ -20,7 +21,7 @@ const CarsDetail = () => {
   <h4 className="ml-2 mb-4 text-primary font-bold">BUGATTI UX</h4>
   <div className="dark:text-secondary flex justify-between mx-2 font-bold">
   <span>$200/Day</span>
-  <p>Details</p>
+  <Link to="/booking" className='underline'>Book Now</Link>
   </div>
   <span></span>
 
@@ -34,7 +35,7 @@ const CarsDetail = () => {
   <h4 className="ml-2 text-primary font-bold">JEEP UX</h4>
   <div className="dark:text-secondary flex justify-between mx-2 mb-2 font-bold">
   <span>$100/Day</span>
-  <p>Details</p>
+  <Link to="/booking" className='underline'>Book Now</Link>
   </div>
   
 </div>
@@ -47,7 +48,7 @@ const CarsDetail = () => {
   <h4 className="ml-2 mb-7 text-primary font-bold">TESLA UX</h4>
   <div className="dark:text-secondary flex justify-between mx-2 font-bold">
   <span>$200/Day</span>
-  <p>Details</p>
+  <Link to="booking" className='underline'>Book Now</Link>
   </div>
   <span></span>
   </div>

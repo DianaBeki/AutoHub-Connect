@@ -5,9 +5,9 @@ const Testimonials = () => {
   return (
     <div className="bg-[#e5e5e5] dark:text-secondary  w-full dark:bg-dark pb-20">
     <div className="container pt-[2rem] md:pt-[4rem]">
-      <div className="font-medium pb-[2rem] md:pb-[5rem] text-center">
-        <h1 className="text-[20px] md:text-[29px]">What Our Clients Say About Us</h1>
-        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ducimu</span>
+      <div className="text-center">
+        <h1 className="font-medium pb-[1rem] text-[20px] md:text-[29px]">What Our Clients Say About Us</h1>
+        <p className="pb-[2rem] md:pb-[5rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ducimu</p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8 place-content-center">
         <div className="">
