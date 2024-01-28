@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
+import { HiMenuAlt3 } from "react-icons/hi";
 import { BiSolidSun, BiSolidMoon } from 'react-icons/bi';
 import { FaCar } from "react-icons/fa";
 
@@ -77,7 +78,7 @@ const Navbar = ({ theme, setTheme }) => {
           tabIndex={0}
           className="md:hidden cursor-pointer z-10"
         >
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {nav ?  <FaTimes size={30} />  : <HiMenuAlt3 size={35} />}
         </button>
 
         {nav && (
