@@ -22,12 +22,12 @@ const links = [
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
   {
-    id: 3,
+    id: 4,
     link: 'about',
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
   {
-    id: 4,
+    id: 5,
     link: 'booking',
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
@@ -108,3 +108,4 @@ const Navbar = ({ theme, setTheme }) => {
 };
 
 export default Navbar;
+

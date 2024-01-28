@@ -1,26 +1,25 @@
 import React from 'react';
 import { GiAutoRepair } from "react-icons/gi";
+import icon from '../../assets/home/icon.png';
 
 const HomeImg = () => {
   return (
     <div className="bg-home dark:bg-dark dark:text-secondary duration-300">
-      <div className="container pt-[6rem] md:pt-[8rem] cursor-pointer">
-        <div data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600" className="">
-        <GiAutoRepair  className="text-[10rem] text-secondary border-4 border-secondary rounded-full p-6 mx-auto" />
+      <div className="flex flex-col items-center justify-center container pt-[6rem] md:pt-[8rem] cursor-pointer">
+        <div className="">
+        <GiAutoRepair size={150} className="text-secondary border-4 border-secondary rounded-full p-5 mx-auto" />
         </div>
         <div className="mt-10">
         <h1  
-        data-aos="fade-up"
-        data-aos-delay="600"
-        className="md:font-bold text-center font-signature text-[2.4rem] text-secondary">
-            AUTO & HUB
+        className="md:font-medium text-center text-2xl md:text-5xl tracking tight text-secondary">
+            CAR RENTAL AND THE <br />
+             CAR HUB WELCOMES <br />
+              YOU
           </h1>
         </div>
         <div 
-         data-aos="fade-up"
-         data-aos-delay="1000"
-        className="text-center">
-          <h3 className="bg-primary inline p-1 text-2xl font-bold">Car Rental & Car Hub</h3>
+        className="text-center mt-3">
+          <h3 className="bg-primary inline p-1 text-2xl">Life on Wheels</h3>
         </div>
       </div>
     </div>
