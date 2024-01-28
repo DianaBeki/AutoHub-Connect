@@ -20,14 +20,13 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  height: 100%;
 }
 
 .bg-home {
   background-image:
     linear-gradient(
       to right bottom,
-      #000000bd,
+      #0000007c,
       #111111dc
     ),
     url(https://img.freepik.com/free-photo/car-being-taking-care-workshop_23-2149580532.jpg?size=626&ext=jpg&uid=R76852349&ga=GA1.2.446972296.1699012389&semt=ais);

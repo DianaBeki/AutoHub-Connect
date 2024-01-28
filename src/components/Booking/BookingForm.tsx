@@ -65,6 +65,7 @@ const BookingForm = () => {
                   type="text"
                   name="lastname"
                   placeholder="Last name"
+                  maxLength={30}
                   value={lastname}
                   onChange={(e) => setLastName(e.target.value)}
                   required
@@ -108,7 +109,7 @@ const BookingForm = () => {
               <div className="flex justify-center items-center">
                 <button
                   type="submit"
-                  className="text-[#111111] bg-secondary px-14 py-5 mb-20 hover:bg-[#111111] hover:text-secondary duration-300 hover:scale-105"
+                  className="text-[#111111] bg-secondary px-7 py-2 md:px-14 md:py-5 mb-10 md:mb-20 hover:bg-[#111111] hover:text-secondary duration-300 hover:scale-105"
                 >
                   Submit
                 </button>
