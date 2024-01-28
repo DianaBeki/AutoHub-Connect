@@ -11,7 +11,7 @@ const HomeImg = () => {
         </div>
         <div className="mt-10">
         <h1  
-        className="md:font-medium text-center text-2xl md:text-5xl tracking tight text-secondary">
+        className="text-center text-2xl md:text-5xl tracking tight text-secondary">
             CAR RENTAL AND THE <br />
              CAR HUB WELCOMES <br />
               YOU
