@@ -8,21 +8,16 @@ import { FaCar } from "react-icons/fa";
 const links = [
   {
     id: 1,
-    link: 'home',
-    style: 'hover:border-b-2 hover:border-[#edf2f4] ',
-  },
-  {
-    id: 2,
     link: 'services',
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
   {
-    id: 3,
+    id: 2,
     link: 'cars',
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
   {
-    id: 4,
+    id: 3,
     link: 'about',
     style: 'hover:border-b-2 hover:border-[#edf2f4] ',
   },
@@ -43,6 +38,7 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <nav className="">
       <div className="bg-secondary dark:bg-[#111111] dark:text-secondary duration-300 flex  shadow-md justify-between md:justify-around items-center w-full h-20 fixed p-[1rem] md:p-0">
+        <Link to='/'>
         <div className="bg-primary">
           <h1 className="md:font-bold flex font-signature text-2xl text-secondary">
             Auto
@@ -50,6 +46,7 @@ const Navbar = ({ theme, setTheme }) => {
             Hub
           </h1>
         </div>
+        </Link>
         <div className="hidden md:block">
           <ul className="flex items-center md:text-[16px] uppercase gap-8 font-bold cursor-pointer">
             {links.map(({ id, link, style }) => (
