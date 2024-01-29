@@ -48,7 +48,7 @@ React.useEffect(() => {
       <header> 
       <Navbar theme={theme} setTheme={setTheme} />
   <Routes>
-  <Route path="/home" element={<Home />} />
+  <Route path="/" element={<Home />} />
   <Route path="/services" element={<Services />} /> 
   <Route path="/cars" element={<Cars />} />
   <Route path="/about" element={<About />} />
