@@ -46,7 +46,7 @@ const ChooseUs = () => {
                       setShowMoreInfo(updatedInfo);
                     }}
                   >
-                    {showMoreInfo[index] ? "Show Less" : "Learn More"}
+                    {showMoreInfo[index] ? "Show Less" : "Show More"}
                   </span>
                 </p>
               </div>
