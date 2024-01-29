@@ -4,7 +4,7 @@ import icon from '../../assets/home/icon.png';
 
 const HomeImg = () => {
   return (
-    <div className="bg-home dark:bg-dark dark:text-secondary duration-300">
+    <div className="bg-home pb-20 dark:bg-dark dark:text-secondary duration-300">
       <div className="flex flex-col items-center justify-center container pt-[6rem] md:pt-[8rem] cursor-pointer">
         <div className="">
         <GiAutoRepair size={150} className="text-secondary border-4 border-secondary rounded-full p-5 mx-auto" />
