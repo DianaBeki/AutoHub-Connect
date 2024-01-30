@@ -32,7 +32,7 @@ const Footer = () => {
               <h1 className="mb-2">Important Links</h1>
             </div>
             <ul className="mb-2">
-              <li className='hover:text-primary duration-500'><Link to="home">Home</Link></li>
+              <li className='hover:text-primary duration-500'><Link to="/">Home</Link></li>
               <li className='hover:text-primary duration-500'><Link to="services">Services</Link></li>
               <li className='hover:text-primary duration-500'><Link to="cars">Cars</Link></li>
               <li className='hover:text-primary duration-500'><Link to="about">About</Link></li>
