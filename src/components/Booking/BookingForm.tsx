@@ -83,7 +83,7 @@ const BookingForm = () => {
                   className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
                 />
            </div>
-           <div className="mb-4">
+           <div className="mb-6">
            <input
                   type="tel"
                   name="phone"
