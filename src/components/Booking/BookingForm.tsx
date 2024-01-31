@@ -45,8 +45,8 @@ const BookingForm = () => {
             <h1 className="md:font-medium pb-[1rem] text-[18px] md:text-[29px] pt-4">GET A QUOTE</h1>
             <p className="pb-[2rem] md:pb-[5rem]">Ready to rent a vehicle for your next adventure? Fill out your details below, and a team member will get in touch with a quote soon.</p>
           </div>
-          <div className="flex justify-center items-center">
-            <form onSubmit={handleSubmit}>
+          <div className="container">
+            <form onSubmit={handleSubmit} className="flex  flex-col">
               <div className="mb-4">
                 <input
                   type="text"
@@ -56,7 +56,7 @@ const BookingForm = () => {
                   value={firstname}
                   onChange={(e) => setFirstName(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 border-white text-dark focus:outline-none w-[80vw]"
+                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
                 />
               </div>
 
@@ -69,30 +69,32 @@ const BookingForm = () => {
                   value={lastname}
                   onChange={(e) => setLastName(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 border-white text-dark focus:outline-none w-[80vw]"
+                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
                 />
               </div>
 
-              <div className="flex justify-between mb-4">
+              <div className="mb-4">
                 <input
                   type="email"
                   name="email"
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="p-2 bg-transparent border-b-2 border-white text-dark focus:outline-none w-[35vw]"
+                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
                 />
-
-                <input
+           </div>
+           <div className="mb-4">
+           <input
                   type="tel"
                   name="phone"
                   placeholder="Phone"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 border-white text-dark focus:outline-none w-[35vw]"
+                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
                 />
-              </div>
+           </div>
+                     
 
               <div className="mb-4">
                 <textarea
@@ -102,7 +104,7 @@ const BookingForm = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-2 text-dark border-white focus:outline-none md:mt-[2rem] w-[80vw]"
+                  className="p-2 bg-transparent border-2 text-dark border-white rounded-md focus:outline-none md:mt-[2rem] w-full"
                 />
               </div>
 
