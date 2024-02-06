@@ -113,7 +113,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-cd my-document
+cd my-projects
 git clone git@github.com:DianaBeki/AutoHub-Connect.git
 ```
 
