@@ -179,7 +179,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add scrolling animaions using AOS]**
+- [ ] **[Add scrolling animations using AOS]**
 - [ ] **[Use Redux toolkit with rapid API by integrating it into my react app to manage state related to API data]**
 - [ ] **[Implement swiper js for smooth scroll of different types of cars]**
 
