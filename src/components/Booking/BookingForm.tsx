@@ -40,7 +40,7 @@ const BookingForm = () => {
   return (
     <div className="bg-secondary w-full dark:bg-dark pb-20">
       <div className="container">
-        <div className="bg-primary text-secondary">
+        <div className="bg-primary text-[#121420]">
           <div className="text-center">
             <h1 className="md:font-medium pb-[1rem] text-[18px] md:text-[29px] pt-4">GET A QUOTE</h1>
             <p className="pb-[2rem] md:pb-[5rem]">Ready to rent a vehicle for your next adventure? Fill out your details below, and a team member will get in touch with a quote soon.</p>
@@ -56,7 +56,7 @@ const BookingForm = () => {
                   value={firstname}
                   onChange={(e) => setFirstName(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
+                  className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
               </div>
 
@@ -69,7 +69,7 @@ const BookingForm = () => {
                   value={lastname}
                   onChange={(e) => setLastName(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
+                  className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
               </div>
 
@@ -80,7 +80,7 @@ const BookingForm = () => {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
+                  className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
            </div>
            <div className="mb-6">
@@ -91,7 +91,7 @@ const BookingForm = () => {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-b-2 rounded-md border-white text-dark focus:outline-none w-full"
+                  className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
            </div>
                      
@@ -104,7 +104,7 @@ const BookingForm = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   required
-                  className="p-2 bg-transparent border-2 text-dark border-white rounded-md focus:outline-none md:mt-[2rem] w-full"
+                  className="placeholder-[#121420] p-2 bg-transparent border-2 text-[#121420] border-[#121420] rounded-md focus:outline-none md:mt-[2rem] w-full"
                 />
               </div>
 
