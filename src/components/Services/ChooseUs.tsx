@@ -9,7 +9,7 @@ const ChooseUs = () => {
     {
       icon: <FaCameraRetro size={50} className="mx-auto" />,
       title: "Best Price",
-      description: "At AutoHub Connect, we are dedicated to delivering exceptional value for your automotive needs. Our competitive and transparent pricing ensures you get the best rates without compromising service quality. Trust us for unbeatable prices and outstanding service excellence, making your journey both memorable and cost-effective."
+      description: "We are dedicated to delivering exceptional value for your automotive needs. Our competitive and transparent pricing ensures you get the best rates without compromising service quality. Trust us for unbeatable prices and outstanding service excellence, making your journey memorable."
     },
     {
       icon: <FaAddressBook size={50} className="mx-auto" />,
