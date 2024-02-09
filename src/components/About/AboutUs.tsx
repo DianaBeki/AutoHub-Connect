@@ -10,10 +10,10 @@ const AboutUs = () => {
         <div className="flex-1">
         <img src={wheel} alt="Car wheel" className='object-cover w-full h-full' />
         </div>
-        <div className=" bg-primary text-[#e5e5e5] flex-1">
+        <div className=" bg-primary px-4 flex-1">
           <div className="pb-5 md:pb-10">
-          <h1 className="font-medium text-2xl md:text-5xl text-center mt-10">ALL ABOUT CAR RENTAL AND THE CAR HUB</h1>
-          <p className="text-center text-1xl px-0 md:px-2 pt-5 md:pt-10">we are your go-to destination for exceptional car rental services. Our extensive range includes recent models from various brands, all available at unbeatable prices. Whether you're exploring San Francisco or planning a more extended journey, our wide selection has you covered. Our friendly team at each location is dedicated to guiding you on how to venture out safely and stylishly. Your satisfaction and safety are our top priorities. Choose us for a rental experience that combines convenience, affordability, and style
+          <h1 className="font-medium text-2xl md:text-4xl text-center mt-10 text-[#121420]">About Us</h1>
+          <p className="text-center text-1xl px-0 md:px-2 pt-5 md:pt-10 text-[#41434d]">we are your go-to destination for exceptional car rental services. Our extensive range includes recent models from various brands, all available at unbeatable prices. Whether you're exploring San Francisco or planning a more extended journey, our wide selection has you covered. Our friendly team at each location is dedicated to guiding you on how to venture out safely and stylishly. Your satisfaction and safety are our top priorities. Choose us for a rental experience that combines convenience, affordability, and style
           </p>
           </div>
           <div className="flex justify-center">
