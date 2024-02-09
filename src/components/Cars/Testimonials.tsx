@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
@@ -19,7 +19,6 @@ const Testimonials = () => {
 <cite>Jessie Pink</cite>
 </div></p>
 </div>
-<FaQuoteRight size={25} className='mx-auto' />
 
         </div>
 
@@ -32,7 +31,6 @@ const Testimonials = () => {
 <cite>Caster Johnson</cite>
 </div></p>
 </div>
-<FaQuoteRight size={25} className="mx-auto"/>
         </div>
 
         <div className="">
@@ -44,7 +42,6 @@ const Testimonials = () => {
 <cite>Skyler Adelson</cite>
 </div></p>
 </div>
-<FaQuoteRight size={25} className="mx-auto" />
         </div>
       </div>
       </div>  
