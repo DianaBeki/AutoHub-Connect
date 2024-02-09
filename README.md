@@ -68,9 +68,15 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 </details>
 
 <details>
+<<<<<<< HEAD
   <summary>Linters and Worflows</summary>
   <ul>
     <li><a href="https://github.com/RileyManda/linter-config">Linters and github workflow-actions</a></li>
+=======
+  <summary>Localstorage</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">Localstorage</a></li>
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
   </ul>
 </details>
 
@@ -81,12 +87,19 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 >Services
 
 >Cars
+<<<<<<< HEAD
 
 >About
 
 >Booking
 
 
+=======
+
+>About
+
+>Booking
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 
 <p align="right">
 (<a href="#readme-top">back to top</a>)</p>
@@ -94,8 +107,12 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 <!-- LIVE DEMO -->
  ## 🚀 Live Demo <a name="live-demo"></a>
 
+<<<<<<< HEAD
 - [Live Demo](https://resplendent-cendol-4ed660.netlify.app/)
 
+=======
+- [Live Demo]()
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +133,11 @@ Clone this repository to your desired folder:
 
 
 ```sh
+<<<<<<< HEAD
 cd Documents
+=======
+cd my-projects
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 git clone git@github.com:DianaBeki/AutoHub-Connect.git
 ```
 
@@ -149,7 +170,11 @@ You can deploy this project using:
     vite build
 ```
  ```sh
+<<<<<<< HEAD
     /dist
+=======
+ /dist
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 ```
 
 
@@ -160,10 +185,17 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
+<<<<<<< HEAD
 👤 **DianaBeki**
 
 - GitHub: [@DianaBeki](https://github.com/DianaBeki)
 - LinkedIn: [DianaBeki](https://www.linkedin.com/in/diana-beki/)
+=======
+👤 **Diana Beki**
+
+- GitHub: [Diana Beki](https://github.com/DianaBeki)
+- LinkedIn: [Diana Beki](https://www.linkedin.com/in/diana-beki-b49684230/)
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,9 +204,16 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
+<<<<<<< HEAD
 - [ ] **[Add scrolling animaions using AOS]**
 - [ ] **[Use Redux toolkit with rapid API by integrating it into my react app to manage state related to API data]**
 - [ ] **[Implement swiper js for smooth scroll of different types of cars]**
+=======
+- [ ] **[Add scrolling animations using AOS]**
+- [ ] **[Use Redux toolkit with rapid API by integrating it into my react app to manage state related to API data]**
+- [ ] **[Implement swiper js for smooth scroll of different types of cars]**
+
+>>>>>>> 2e7f261521c950d28f5c1bb6a50ae89f99a92f48
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
