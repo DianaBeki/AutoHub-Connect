@@ -9,17 +9,17 @@ const ChooseUs = () => {
     {
       icon: <FaCameraRetro size={50} className="mx-auto" />,
       title: "Best Price",
-      description: "At AutoHub Connect, we are dedicated to delivering exceptional value for your automotive needs. Our competitive and transparent pricing ensures you get the best rates without compromising service quality. Trust us for unbeatable prices and outstanding service excellence, making your journey both memorable and cost-effective. Choose affordability without sacrificing excellence."
+      description: "At AutoHub Connect, we are dedicated to delivering exceptional value for your automotive needs. Our competitive and transparent pricing ensures you get the best rates without compromising service quality. Trust us for unbeatable prices and outstanding service excellence, making your journey both memorable and cost-effective."
     },
     {
       icon: <FaAddressBook size={50} className="mx-auto" />,
       title: "Fast and Safe",
-      description: "We prioritize efficiency without compromising your safety. Our commitment to providing swift and secure experiences is reflected in streamlined processes and rigorous safety measures. Whether renting a car or using our services, expect a seamless, fast, and secure experience putting your safety first. Choose us for a journey where speed meets safety, ensuring a hassle-free and protected automotive adventure."
+      description: "We prioritize efficiency without compromising your safety. Our commitment to providing swift and secure experiences is reflected in streamlined processes and rigorous safety measures. Whether renting a car or using our services, expect a seamless, fast, and secure experience putting your safety first."
     },
     {
       icon: <FaPenToSquare size={50} className="mx-auto" />,
       title: "Experienced Driver",
-      description: "We focus on making your rides enjoyable and stress-free. Our skilled drivers are committed to a smooth and safe journey, ensuring you reach your destination comfortably. Rely on our friendly and professional service. Just like our commitment to unbeatable prices and excellent service quality, we strive to make your experience with our drivers memorable and cost-effective. Trust Experience Driver for a ride that's both affordable and exceptional."
+      description: "We focus on making your rides enjoyable and stress-free. Our skilled drivers are committed to a smooth and safe journey, ensuring you reach your destination comfortably. Rely on our friendly and professional service. Just like our commitment to unbeatable prices and excellent service quality."
     }
   ];
 
@@ -31,23 +31,18 @@ const ChooseUs = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-5 dark:text-secondary">
           {serviceData.map((service, index) => (
-            <div key={index} className="bg-[#111111] text-secondary hover:text-dark hover:bg-primary cursor-pointer duration-200 rounded-md px-2 md:px-5 py-3">
+            <div key={index} className="bg-[#355834] text-secondary hover:text-dark hover:bg-primary cursor-pointer duration-200 rounded-md px-2 md:px-5 py-3">
               <div className="mt-4">{service.icon}</div>
               <div className="">
                 <h1 className="text-center mt-4 mb-[15px] font-medium">{service.title}</h1>
                 <p className="text-center text-1xl">
-                  {showMoreInfo[index] ? service.description : `${service.description.slice(0, 250)}...`}
+                  {service.description}
                   <br />
-                  <span
-                    className="text-[#fb5607] font-medium cursor-pointer"
-                    onClick={() => {
-                      const updatedInfo = [...showMoreInfo];
-                      updatedInfo[index] = !updatedInfo[index];
-                      setShowMoreInfo(updatedInfo);
-                    }}
+                  <button
+                    className="text-black px-5 py-2 rounded-md my-5 bg-white font-medium cursor-pointer"
                   >
-                    {showMoreInfo[index] ? "Show Less" : "Show More"}
-                  </span>
+                  Learn More
+                  </button>
                 </p>
               </div>
             </div>
