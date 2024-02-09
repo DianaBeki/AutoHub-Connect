@@ -6,10 +6,30 @@ const BookingForm = () => {
   const [lastname, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('')
+  const [message, setMessage] = useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    // Form validation checks
+    if (!firstname || !lastname || !email || !phone || !message) {
+      toast.error('Please fill out all fields before you submit');
+      return;
+    }
+
+    // Email validation using regular expression
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+      toast.error('Please enter a valid email address');
+      return;
+    }
+
+    // Phone number validation using regular expression
+    const phonePattern = /^[0-9]{10}$/;
+    if (!phonePattern.test(phone)) {
+      toast.error('Please enter a valid phone number');
+      return;
+    }
 
     const form = e.currentTarget;
     const formData = new FormData(form);
@@ -22,19 +42,19 @@ const BookingForm = () => {
 
       if (response.ok) {
         toast.success('Message sent successfully');
+        // Clear form fields after successful submission
+        setFirstName('');
+        setLastName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
       } else {
-        toast.error('Please fill out all fields before you submit');
+        toast.error('Failed to submit form');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
       toast.error('An unexpected error occurred. Please try again later.');
     }
-
-    setFirstName('');
-    setLastName('');
-    setEmail('');
-    setPhone('');
-    setMessage('');
   };
 
   return (
@@ -80,11 +100,13 @@ const BookingForm = () => {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  required
                   className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
-           </div>
-           <div className="mb-6">
-           <input
+              </div>
+
+              <div className="mb-6">
+                <input
                   type="tel"
                   name="phone"
                   placeholder="Phone"
@@ -93,8 +115,7 @@ const BookingForm = () => {
                   required
                   className="placeholder-[#121420] p-2 bg-transparent border-b-2 rounded-md border-[#121420] text-[#121420] focus:outline-none w-full"
                 />
-           </div>
-                     
+              </div>
 
               <div className="mb-4">
                 <textarea
