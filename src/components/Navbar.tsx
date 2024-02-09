@@ -39,7 +39,7 @@ const Navbar = ({ theme, setTheme }) => {
     <nav className="">
       <div className="bg-secondary dark:bg-[#111111] dark:text-secondary duration-300 flex  shadow-md justify-between md:justify-around items-center w-full h-20 fixed p-[1rem] md:p-0">
         <Link to='/'>
-        <div className="bg-primary">
+        <div className="bg-[#355834]">
           <h1 className="md:font-bold flex font-signature text-2xl text-secondary">
             Auto
             <FaCar size={50} className="rotate-[-5deg]" />
