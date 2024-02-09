@@ -92,7 +92,7 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 <!-- LIVE DEMO -->
  ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://resplendent-cendol-4ed660.netlify.app/)
+- [Live Demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
