@@ -68,37 +68,9 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 </details>
 
 <details>
-  <summary>Localstorage</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">Localstorage</a></li>
-  </ul>
-</details>
-
-<details>
   <summary>Linters and Worflows</summary>
   <ul>
     <li><a href="https://github.com/RileyManda/linter-config">Linters and github workflow-actions</a></li>
-  </ul>
-</details>
-
- <details>
-  <summary>Rest-API</summary>
-  <ul>
-    <li><a href="https://docs.github.com/en/rest?apiVersion=2022-11-28">Github API</a></li>
-  </ul>
-</details>
-
- <details>
-  <summary>React Bootstrap</summary>
-  <ul>
-    <li><a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
-  </ul>
-</details>
-
- <details>
-  <summary>React Testing Library</summary>
-  <ul>
-    <li><a href="https://testing-library.com/docs/react-testing-library/intro/">React Bootstrap</a></li>
   </ul>
 </details>
 
@@ -106,13 +78,15 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 ## 🛠 Key Features <a name="key-features"></a>
 ### Features <a name="key-features"></a>
 
->Projects
+>Services
 
->Work experience
+>Cars
 
->Skills
+>About
 
->Contact component
+>Booking
+
+
 
 <p align="right">
 (<a href="#readme-top">back to top</a>)</p>
@@ -120,11 +94,8 @@ AutoHub Connect is a friendly website created to be your main place for easy car
 <!-- LIVE DEMO -->
  ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://rileysportfolio.onrender.com/)
+- [Live Demo](https://resplendent-cendol-4ed660.netlify.app/)
 
-<!-- ## 🚀 Project Presentation <a name="project-presentation"></a>
-
-- [Project Presentation ](https://rileysportfolio.onrender.com/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,8 +116,8 @@ Clone this repository to your desired folder:
 
 
 ```sh
-cd my-folder
-git clone https://github.com/RileyManda/rileysportfolio.git
+cd Documents
+git clone git@github.com:DianaBeki/AutoHub-Connect.git
 ```
 
 
@@ -156,7 +127,7 @@ Install this project with:
 
 
 ```sh
-  cd my-project
+  cd AutoHub-Connect
   npm i
 ```
 
@@ -170,25 +141,15 @@ To run the project, execute the following command:
   npm run dev
 ```
 
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-
 ### Deployment
 
 You can deploy this project using:
 
 ```sh
-    npm run build
+    vite build
 ```
  ```sh
-    gh-pages deploy --dist build
+    /dist
 ```
 
 
@@ -199,12 +160,10 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **RileyManda**
+👤 **DianaBeki**
 
-- GitHub: [@RileyManda](https://github.com/RileyManda)
-- Twitter: [@rilecodez](https://twitter.com/rileycodez)
-- LinkedIn: [rileymanda](https://www.linkedin.com/in/rileymanda/)
-
+- GitHub: [@DianaBeki](https://github.com/DianaBeki)
+- LinkedIn: [DianaBeki](https://www.linkedin.com/in/diana-beki/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,9 +171,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Mobile Version
 
-> Implement Media Queries For Mobile Responsiveness
+- [ ] **[Add scrolling animaions using AOS]**
+- [ ] **[Use Redux toolkit with rapid API by integrating it into my react app to manage state related to API data]**
+- [ ] **[Implement swiper js for smooth scroll of different types of cars]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -225,7 +185,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RileyManda/rileysportfolio/issues).
+Feel free to check the [issues page](https://github.com/DianaBeki/AutoHub-Connect/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,8 +211,6 @@ Thank you for taking the time to explore this project! Your support means a lot 
 I would like to express my gratitude to the following individuals and organizations who have contributed to this project and my development journey:
 
 - [Microverseinc](https://github.com/microverseinc): I extend my sincere appreciation for their exceptional introductory materials on React and Redux, which served as the foundation for this project.
-
-- [Linter and Git Workflows Setup](https://github.com/RileyManda/linter-config): This project benefited greatly from the setup inspired by Microverseinc's [template](https://github.com/microverseinc/linters-config/tree/master/react-redux). I've incorporated it not only into this project but also across all my other projects. It ensures impeccable code quality and precise adherence to syntax standards in CSS, JSX, and JavaScript.
 
 Your contributions have been instrumental in the success of this project, and I'm thankful for the knowledge and resources you've provided.
 
@@ -283,15 +241,10 @@ Your contributions have been instrumental in the success of this project, and I'
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ATTRIBUTION -->
-
-## 👥 Attribution <a name="attribution"></a>
-- Original logo design template from: [Svgrepo](https://www.svgrepo.com/)
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[MIT License](./LICENSE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
