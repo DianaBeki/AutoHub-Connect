@@ -7,7 +7,7 @@ const BookingForm = () => {
       return <p>Thanks for joining!</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
+      <form action="https://formspree.io/f/xyyapwwj" method="post" onSubmit={handleSubmit}>
       <label htmlFor="email">
         Email Address
       </label>
