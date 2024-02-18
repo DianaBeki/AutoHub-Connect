@@ -50,7 +50,7 @@ React.useEffect(() => {
   <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/services" element={<Services />} /> 
-  <Route path="/cars" element={<Cars />} />
+  <Route path="/cars/:carId" element={<Cars />} />
   <Route path="/about" element={<About />} />
   <Route path="/booking" element={<Booking />} />
   </Routes>
