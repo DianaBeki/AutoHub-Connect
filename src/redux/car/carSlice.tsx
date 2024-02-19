@@ -1,18 +1,14 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-export const fetchCarss = createAsyncThunk('car/fetchCars', async () => {
-    try {
-      const response = await axios.get('http://127.0.0.1:3000/api/v1/cars/');
-      return response.data;
-    } catch (error) {
-      throw error.response.data;
-    }
+export const fetchCars = createAsyncThunk("fetchCars", async () => {
+ const data = await fetch('')
+    return data.json()
   });
   
-  export const fetchCarById = createAsyncThunk('doctor/fetchCarById', async (carId) => {
+  export const fetchCarById = createAsyncThunk('car/fetchCarById', async (carId) => {
     try {
-      const response = await axios.get(`http://127.0.0.1:3000/api/v1/cars/${carId}`);
+      const response = await axios.get(`https://car-api2.p.rapidapi.com/api/vin/1GTG6CEN0L1139305${carId}`);
       return response.data;
     } catch (error) {
       throw error.response.data;
@@ -20,9 +16,13 @@ export const fetchCarss = createAsyncThunk('car/fetchCars', async () => {
   }); 
 
 const carSlice = createSlice({
-name: 'car',
-initialState: {cars: [], status: 'idle', error: null},
-reducers: {},
+    name: 'car',
+    initialState: {
+        isLoading: false,
+        data: null,
+        error: false
+    },
+    reducers: {},
 extraReducers: (builder) => {
     builder
     .addCase(fetchCars.fulfilled, (state, action) => {
