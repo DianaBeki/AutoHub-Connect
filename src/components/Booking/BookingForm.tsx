@@ -7,7 +7,7 @@ const BookingForm = () => {
       return <p>Thanks for joining!</p>;
   }
   return (
-      <form action="https://formspree.io/f/xyyapwwj" method="post" onSubmit={handleSubmit} className='bg-[#355834]'>
+      <form action="https://formspree.io/f/xyyapwwj" method="post" onSubmit={handleSubmit} className='bg-[#355834] container pt-[6rem] md:pt-[8rem]'>
    <div className="flex flex-row-reverse justify-evenly"> 
    <div className="">
     <h1>You can also reach us via:</h1>
